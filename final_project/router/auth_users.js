@@ -5,7 +5,11 @@ const regd_users = express.Router();
 
 let users = [{"username":"abhishek","password":"123"}];
 
+const isValid = (username)=>{ 
+}
 
+const authenticatedUser = (username,password)=>{ 
+}
 
 //only registered users can login
 regd_users.post("/login",(req,res) => {
